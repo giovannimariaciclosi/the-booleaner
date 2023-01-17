@@ -52,3 +52,26 @@ main {
 section {
   margin-bottom: 22px;
 }
+
+
+/* table */
+#table table {
+  /* fa sparire i bordi della tabella */
+  /* border-collapse: collapse; */
+  border-spacing: 0;
+}
+
+#table thead {
+  background-color: #20a8e4;
+  color: white;
+}
+
+#table table .back-blue {
+  background-color: #b0e4f1;
+}
+
+#table #half-width {
+  width: 50%;
+}
+
+
