@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* salvare il padding interno di una lista */
+ul, ol {
+  padding-inline-start: 30px;
+}
+
 body {
   margin: 0;
 }
@@ -13,7 +18,7 @@ nav {
   padding-top: 40px;
   padding-bottom: 10px;
   padding-left: 8px;
-  
+
   background-color: #4e9ffe;
   background-image: url('../img/pattern.png');
   background-size: auto 200%;
@@ -25,3 +30,25 @@ nav img {
 }
 /* /nav */
 
+/* evidenziazione */
+.highlight {
+  background-color: lightskyblue;
+}
+
+main {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.grey-text {
+  color: grey;
+}
+
+
+#header-date {
+  font-size: 12px;
+}
+
+section {
+  margin-bottom: 22px;
+}
