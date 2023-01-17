@@ -35,7 +35,7 @@ nav img {
   background-color: lightskyblue;
 }
 
-main {
+main, footer {
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -53,6 +53,11 @@ section {
   margin-bottom: 22px;
 }
 
+
+/* pre-article */
+#pre-article figure img{
+  /* width: 40%; */
+}
 
 /* table */
 #table table {
@@ -75,3 +80,26 @@ section {
 }
 
 
+
+/* footer */
+footer .footer-image {
+  width: 280px;
+  height: 168px;
+
+  margin-bottom: 12px;
+  padding: 12px;
+
+  background-size: cover;
+  color: white;
+
+  font-weight: bold;
+
+}
+
+footer #footer-image-1 {
+  background-image: url('../img/monitor.jpg');
+}
+
+footer #footer-image-2 {
+  background-image: url("../img/graph.jpg");
+}
