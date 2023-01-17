@@ -10,13 +10,14 @@ body {
 
 /* nav */
 nav {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  
   background-color: #4e9ffe;
   background-image: url('../img/pattern.png');
   background-size: auto 200%;
 
-  padding-top: 40px;
-  padding-bottom: 10px;
-  padding-left: 8px;
 }
 
 nav img {
